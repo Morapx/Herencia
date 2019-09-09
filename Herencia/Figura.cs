@@ -8,14 +8,14 @@ namespace Herencia
 {
     abstract class Figura
     {
-        private string Color { get; set; }
+        public string Color { get; set; }
 
         //Todas las figuras deben ser capaces de calcular su area
         public abstract double calcularArea();
 
         public string toString()
         {
-          return  "Soy una figura" +  Color;
+          return  "Soy una figura" + Color;
         }
     }
 }
